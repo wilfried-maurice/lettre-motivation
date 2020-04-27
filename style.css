@@ -1,0 +1,44 @@
+
+time{
+  float: right;
+}
+
+h2{
+  text-align: right;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Merienda', cursive;
+    box-shadow: 0em 100px 8em 0em; 
+    background-color: ffffff;
+    padding: 20px;
+    margin: 90px 300px 300px 200px;
+    font-size: 15px;
+}
+p {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  75% {
+    font-size: 90%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+footer p{
+  text-align: right;
+}
